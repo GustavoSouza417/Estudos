@@ -1,0 +1,9 @@
+1) Criar um script que recebe um nome de arquivo, e altera remove a permissão de gravação.
+
+2) Criar um script que recebe o nome de um arquivo e se o mesmo não tiver conteúdo apaga, mas pede permissão para o usuário.
+
+3) Obtém um nome de diretório e verifica se o mesmo existe, devolve erro se existir, senão cria um diretório e cria um arquivo com um nome que deve ser definido pelo usuário através de um menu com 4 opções de nomes. Use case
+
+4) Refaça o programa usando select.
+
+5) Criar um script que recebe o nome de um arquivo e se o arquivo existir e o usuário tiver permissão de gravação, renomeia o arquivo para .bak ( deletando o .bak caso este exista) e criando um novo vazio, abrindo o mesmo com o nano. ao sair do nano, verificar se um novo arquivo foi criado, caso negativo perguntar para o usuário se quer restaurar o arquivo .bak. se sim renomeá-lo.

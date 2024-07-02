@@ -1,0 +1,9 @@
+1) Criar um script que obtêm os arquivos e diretórios de uma pasta, passada como parâmetro, e verifica se os mesmos são arquivos ou diretórios.
+
+2) Faça um script que solicita a digitação de um número e gere a tabuada do mesmo.
+
+3) Faça um script que resolva a Fórmula de Bhaskara. Deve ser criada uma função para resolver o delta.
+
+4) Crie uma calculadora com as 4 operações. Cada um dos cálculos devem ser executados em uma função e o programa deve ficar em loop até que a opção de sair seja selecionada.
+
+5) Sabendo que a variável $* devolve uma lista com os parâmetros digitados na linha de comandos, use um loop for para exibir estes parâmetros.

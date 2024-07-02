@@ -1,0 +1,9 @@
+//coisas para baixar
+  sudo apt install nasm     //nasm
+  sudo apt install binutils //ld
+
+//gerar arquivo objeto
+  nasm -f elf64 -o arquivo.o arquivo.asm
+
+//gerar arquivo executável com o linker
+  ld arquivo.o -o arquivo

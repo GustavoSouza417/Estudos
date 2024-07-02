@@ -1,0 +1,9 @@
+1) Calcular e mostrar a metade de um número qualquer informado pelo usuário.
+
+2) Ler três números quaisquer e mostrar o resultado da soma destes números.
+
+3) Ler quatro números quaisquer e mostrar o resultado da média destes números.
+
+4) Calcular a área de um retângulo.
+
+5) Calcular a área de um círculo.

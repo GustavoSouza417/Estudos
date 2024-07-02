@@ -1,0 +1,15 @@
+REGISTRADORES:
+
+- EAX: é utilizado para passar o código da chamada de sistema que você quer executar. Seguem alguns códigos de chamadas de sistema:
+    1) sys_exit: chamada de sistema que finaliza um programa;
+    3) sys_read: chamada de sistema que recebe uma entrada do usuário;
+    4) sys_write: chamada de sistema que escreve uma mensagem na tela.
+
+- EBX: é utilizado para passar o código do File Descriptor como argumento para uma chamada de sistema;  
+
+- ECX: é utilizado para passar o endereço de um rótulo como argumento para uma chamada de sistema;
+
+- EDX: é utilizado para passar o tamanho de um rótulo como argumento para uma chamada de sistema;
+
+// não é um registrador, mas finaliza qualquer conjunto de instruções
+- int 0x80: causa uma interrupção de software para que o programa execute a chamada de sistema solicitada de acordo com os argumentos passados.
